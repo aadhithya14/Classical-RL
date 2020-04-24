@@ -80,70 +80,21 @@ class UCB():
             self.Q_max.append(np.max(self.Q))
         regret=self.bandit.get_regret()
         return self.Q,self.Q_max,self.bandit.get_best_arm(),self.bandit.get_best_value(),regret
-    
+ 
 
-
-# In[7]:
-
-
-"""def K_arms(k):
-    Q_stars=np.zeros(k)
-    k_arms=[]
-    actions=[]
-    for i in range(k):
-        k_arms.append(K_armed_bandit(random.uniform(-5,5),random.uniform(-5,5)))
-        Q_stars[i]=k_arms[i].mean
-        actions.append(i)
-    return Q_stars,k_arms,actions
-
-k=8
-(Q_stars,k_arms,actions) = K_arms(k)
-
-        """
-k=5
-mean=np.array([1,3,6,2,9])*0.1
-variance=[1,1,1,1,1]
-num_iters=4995
-bandit=Bandit(mean,variance,k)
-ucb_model=UCB(num_iters,bandit)
-(Q,Q_max,best_arm,best_value,regret)=ucb_model.ucb()
-Q_stars=bandit.get_Q_stars()
+     
+    k=5
+    mean=np.array([1,3,6,2,9])*0.1
+    variance=[1,1,1,1,1]
+    num_iters=4995
+    bandit=Bandit(mean,variance,k)
+    ucb_model=UCB(num_iters,bandit)
+    (Q,Q_max,best_arm,best_value,regret)=ucb_model.ucb()
+    Q_stars=bandit.get_Q_stars()
 
 
 
 
-# In[8]:
-
-
-"""num_iters=1000
-def ucb_select_action(Q_value,k):
-        arm=np.argmax(np.add(Q_value,confidence))
-        return arm
-def ucb_value(num_iters):
-    Q=np.zeros(k)
-    Q_max=[]
-    identifier_func=np.zeros(k)
-    for arm in range(k):
-        reward=k_arms[arm].pull()
-        arm_count[arm]+=1
-        Q[arm]=(Q[arm]*identifier_func[arm]+reward)/(identifier_func[arm]+1)
-    arm=np.argmax(np.max(Q))
-    for i in range(1,num_iters+1):
-        reward=k_arms[arm].sample()
-        identifier_func[arm]+=1
-        Q[arm]=(Q[arm]*identifier_func[arm]+reward)/(identifier_func[arm]+1) 
-        confidence=np.sqrt(2*np.log())
-        Q_max.append(np.max(Q))
-        
-    return Q,Q_max
-"""
-        
-    
-        
-        
-
-
-# In[ ]:
 
 
 
@@ -174,11 +125,6 @@ print("the true value function of the best arm is",Q_stars)
 print("the best arm is",best_arm)
 print("accuracy",accuracy)
 
-
-# In[13]:
-
-
-print(accuracy)
 
 
 # In[14]:
