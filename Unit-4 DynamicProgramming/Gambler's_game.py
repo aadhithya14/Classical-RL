@@ -57,6 +57,7 @@ def value_iteration(p_h,gamma=1,theta=0.0001):
 
 
 (pi,V)=value_iteration(0.25)
+#(pi,V)=value_iteration(0.65) uncoomment it when the probability is 0.65 
 
 
 # In[89]:
