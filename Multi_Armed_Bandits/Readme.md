@@ -13,15 +13,15 @@ Code the algorithms as you go through the Algorithms.
 
 I have implemented the following Algorithms
 
--[x]epsilon-greedy 
+- [x]epsilon-greedy 
 
--[x]Softmax
+- [x]Softmax
 
--[x]UCB-(Upper Confidence Bound)
+- [x]UCB-(Upper Confidence Bound)
 
--[x]PAC-(Probably Approximately Correct)
+- [x]PAC-(Probably Approximately Correct)
 
--[x]Median Elimination
+- [x]Median Elimination
 
 -[x]Thompson Sampling
 
