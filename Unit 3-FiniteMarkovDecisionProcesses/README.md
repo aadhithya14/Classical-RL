@@ -4,7 +4,7 @@ This marks the beginning of the Full Reinforcement Learning. In this unit we are
 
 [Sutton and Barto chapter 3](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
-[Dr Balaraman Ravindran's lectures on NPTEL week 3 and week 4]((https://nptel.ac.in/courses/106106143/)  )
+[Dr Balaraman Ravindran's lectures on NPTEL week 3 and week 4](https://nptel.ac.in/courses/106106143/) 
 
 [Articles on Medium](https://towardsdatascience.com/reinforcement-learning-demystified-markov-decision-processes-part-1-bf00dda41690)
 
