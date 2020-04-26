@@ -30,6 +30,7 @@ I have implemented the following Algorithms
 After you are done with this I would recommend to go through the notes that I made in the following order. These notes summarize the topics in a brief manner.
 
 [Upper Confidence Bounds](https://hackmd.io/Cwy1lsGdTziRDVx6Ig8csw?both)
+[PAC OPTIMALITY](https://hackmd.io/HWBiILjkReaem5eMZnkaAg#MEDIAN-ELIMINATION-ALGORITHM)
 
 
 
