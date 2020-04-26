@@ -36,14 +36,14 @@ class Bandit():
     def get_best_value(self):
         return self.best_value
     
-    def get_armhistory(self):
+    def get_armcount(self):
         return self.arm_count
     
     def get_Q_stars(self):
         return self.Q_stars
     
     def reset(self):
-        self.arm_history = np.zeros(self.num_arms)
+        self.arm_count = np.zeros(self.num_arms)
         self.regret = []
 
 
@@ -67,7 +67,7 @@ class MedianElimination():
             self.lvalue=int((2/np.square(self.epsilon)*np.log(3/self.delta)))
             for k in range(self.bandit.num_arms):
                 for i in range(self.lvalue):
-                    arm_count=self.bandit.get_armhistory()
+                    arm_count=self.bandit.get_armcount()
                     reward=self.bandit.pull(k)
                     self.Q[k]=(self.Q[k]*arm_count[k]+reward)/(arm_count[k]+1)
                     self.Q_max.append(np.max(self.Q))
@@ -131,9 +131,9 @@ print("accuracy",accuracy)
 # In[32]:
 
 
-def plot_regret(data, bandit, player, k):
+def plot_regret(data, bandit, algorithm, k):
     t = np.arange(478820)
-    plt.plot(t, regret, color='green', label=player)
+    plt.plot(t, regret, color='green', label=algorithm)
     plt.xlabel("Time steps")
     plt.ylabel("Regret")
     plt.legend()
