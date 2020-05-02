@@ -8,9 +8,9 @@ algorithm. The pros and cons of this method are addressed in the hackmd  notes b
 
 The sources of this topics are
 
-[Balaraman Ravindran's Lectures]((https://nptel.ac.in/courses/106106143/)  )
+[Balaraman Ravindran's Lectures](https://nptel.ac.in/courses/106106143/)
 
-[Sutton and Barto Textbook-Chapter 5]((https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf))
+[Sutton and Barto Textbook-Chapter 5](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
 
 
 
