@@ -17,6 +17,7 @@ The sources of this topics are
 I have implemented the following algorithms:
 
 - [x] On-policy Monte-Carlo using Non Exploring starts(Epsilon-Soft policy) using BlackJack environment.
+- [x] Off policy Monte-Carlo using BlackJack environment.
 
 [Check out My notes on the topic](https://hackmd.io/0QY3yytBRB6L1ieb7wJK-Q)
 
