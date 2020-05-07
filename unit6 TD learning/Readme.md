@@ -5,6 +5,7 @@
 It is a sample based algorithm which uses features of both Monte-Carlo and Dynamic Programming methods. Like Monte Carlo methods, TD methods can learn directly from raw experience without a model of the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates, without waiting for a final outcome (they bootstrap).
 
 Sources of topics are:-
+
 [Balaraman Ravindran's lectures](https://nptel.ac.in/courses/106106143/) 
 
 [Sutton and Barto chapter 6](https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf)
