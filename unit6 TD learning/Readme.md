@@ -12,6 +12,11 @@ Sources of topics are:-
 
 [Google deepmind lectures by David Silver.](https://www.youtube.com/watch?v=0g4j2k_Ggc4&list=PLqYmG7hTraZBiG_XpjnPrSNw-1XQaM_gB&index=5)
 
+## CLIFFWORLD 
+This is a standard un-discounted, episodic task, with start and goal states, and the usual actions causing movement up, down, right, and left. Reward is -1 on all transitions except those into the region marked Cliff. Stepping into this region incurs a reward of optimal path -100 and sends the agent instantly back to the start.The environment looks like below
+
+![alt text](https://github.com/aadhithya14/RLResearch/blob/master/unit6%20TD%20learning/Results/CLIFF.png)
+
 
 I have implemented the following algorithms
 
@@ -22,7 +27,7 @@ I have implemented the following algorithms
 
 ### RESULTS:
 
-![alt text](https://github.com/aadhithya14/RLResearch/blob/master/unit6%20TD%20learning/Results/cliffworld.png)
+![alt text]((https://github.com/aadhithya14/RLResearch/blob/master/unit6%20TD%20learning/Results/cliffworld.png)
 
 [Check out my notes on this unit](https://hackmd.io/CWNwEj-IR7eq5Nh6vUSefQ?both)
 
