@@ -20,6 +20,9 @@ I have implemented the following algorithms
 - [x] Expected SARSA in CliffWorld
 
 
+### RESULTS:
+
+![alt text](https://github.com/aadhithya14/RLResearch/blob/master/unit6%20TD%20learning/Results/cliffworld.png)
 
 [Check out my notes on this unit](https://hackmd.io/CWNwEj-IR7eq5Nh6vUSefQ?both)
 
