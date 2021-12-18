@@ -15,7 +15,7 @@ Sources of topics are:-
 ## CLIFFWORLD 
 This is a standard un-discounted, episodic task, with start and goal states, and the usual actions causing movement up, down, right, and left. Reward is -1 on all transitions except those into the region marked Cliff. Stepping into this region incurs a reward of optimal path -100 and sends the agent instantly back to the start.The environment looks like below
 
-![alt text](https://github.com/aadhithya14/RLResearch/blob/master/TDLearning/Results/Cliff.png)
+![alt text](https://github.com/aadhithya14/RLResearch/blob/master/unit6 TD learning/Results/Cliff.png)
 
 
 I have implemented the following algorithms
@@ -27,7 +27,7 @@ I have implemented the following algorithms
 
 ### RESULTS:
 
-![alt text](https://github.com/aadhithya14/RLResearch/blob/master/TDLearning/Results/Results.png)
+![alt text](https://github.com/aadhithya14/RLResearch/blob/master/unit6 TD learning/Results/Results.png)
 
 [Check out my notes on this unit](https://hackmd.io/CWNwEj-IR7eq5Nh6vUSefQ?both)
 
